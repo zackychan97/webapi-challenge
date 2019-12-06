@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    I learned that Express is just middleware functions, and these functions have access to the homie (req) aka request object and the homie (res) the response object. It also has access to the amiga (next). The next function is a function of the middleware that we can invoke () it will execute/fire the middleware 
+
 - [ ] Describe Middleware?
+
+    Middleware in express is just going to be functions having access to the 3 amigas res req and next function in the apps req-res cycle.
+    Middleware in general is just computer software the gives us services that we apply to our software applications and it gives us capabilities beyond what we previously had. Usually we use it to make our job easier.
+
 
 - [ ] Describe a Resource?
 
+    Stuff we use to make an API I believe. npm and yarn packages might be one or your middleware in those packages, probably the tests count. The tools essentially. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    We can send the client a JSON object and we send information back like whether or not their desired outcome was achieved or not depending on what theyre doing. So if we send them a 500 error along with a message saying their was an error w the server/db or a 200 message with success! Although for a lot of stuff I see when you create the account or buy a product, any interaction really with responding/requesting between front end and back end, you dont ever see the 200 message it will just be a pretty well designed card that has success! and other information pertaining to what you just did.
+
 - [ ] How can we partition our application into sub-applications?
+
+    NodeJS and Express have routes and we can use these routes by passing them in how we desire and we have been using sort of just the base url  like you would imagine when you go to apple.com you dont see a long route after the base, if anything its just a '/' and the end like apple.com/ and anyways once we do that we can make our own routes in the route file and be pretty particular about them too 
 
 ## Minimum Viable Product
 
