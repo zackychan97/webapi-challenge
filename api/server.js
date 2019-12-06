@@ -1,11 +1,12 @@
+  
 const express = require("express");
-const challengeRouter = require("./projects-route");
+const projectRouter = require("./challenge-routes");
 const server = express();
 
 server.use(express.json());
 
 server.get("/", (req, res) => {
-    res.status(200).json({ message: "server is up and running" })
+  res.status(200).json({ message: "API is running ..." });
 });
 
 server.use("/api/projects", projectRouter);
