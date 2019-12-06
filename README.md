@@ -58,7 +58,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] How can we partition our application into sub-applications?
 
-    NodeJS and Express have routes and we can use these routes by passing them in how we desire and we have been using sort of just the base url like you would imagine when you go to apple.com you dont see a long route after the base, if anything its just a '/' and the end like apple.com/ and anyways once we do that we can make our own routes in the route file and be pretty particular about them too 
+    NodeJS and Express have routes and we can use these routes by passing them in how we desire and we have been using sort of just the base url  like you would imagine when you go to apple.com you dont see a long route after the base, if anything its just a '/' and the end like apple.com/ and anyways once we do that we can make our own routes in the route file and be pretty particular about them too 
 
 ## Minimum Viable Product
 
